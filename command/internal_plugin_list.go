@@ -36,6 +36,7 @@ import (
 	nullprovider "github.com/hashicorp/terraform/builtin/providers/null"
 	openstackprovider "github.com/hashicorp/terraform/builtin/providers/openstack"
 	packetprovider "github.com/hashicorp/terraform/builtin/providers/packet"
+	photonprovider "github.com/hashicorp/terraform/builtin/providers/photon"
 	postgresqlprovider "github.com/hashicorp/terraform/builtin/providers/postgresql"
 	powerdnsprovider "github.com/hashicorp/terraform/builtin/providers/powerdns"
 	randomprovider "github.com/hashicorp/terraform/builtin/providers/random"
@@ -91,6 +92,7 @@ var InternalProviders = map[string]plugin.ProviderFunc{
 	"null":         nullprovider.Provider,
 	"openstack":    openstackprovider.Provider,
 	"packet":       packetprovider.Provider,
+	"photon":       photonprovider.Provider,
 	"postgresql":   postgresqlprovider.Provider,
 	"powerdns":     powerdnsprovider.Provider,
 	"random":       randomprovider.Provider,
