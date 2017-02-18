@@ -1897,6 +1897,11 @@
 			"revision": "9051bd6b44125d9472e0c148b5965692ab283d4a"
 		},
 		{
+			"path": "github.com/vmware/photon-controller-go-sdk/photon",
+			"revision": "8bf1c5f12b26fb67baf36825e7f0438a39823b27",
+			"revisionTime": "2017-01-20T21:26:51Z"
+		},
+		{
 			"comment": "2.0.0-6-g5686bcd",
 			"path": "github.com/xanzy/go-cloudstack/cloudstack",
 			"revision": "5686bcde5af20565d8c7a3f66b5441430ac54186"
